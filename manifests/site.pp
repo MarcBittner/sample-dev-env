@@ -1,3 +1,4 @@
 node default {
-  			 class {'figlet_motd': motdText => "All your base are belong to Marc."} 
+			 include stdlib
+  			 class {'figlet_motd': motdText => "This is not the motd you are looking for."} 
 }
