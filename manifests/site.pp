@@ -1,3 +1,3 @@
 node default {
-  include os
+  			 class {'figlet_motd': motdText => "All your base are belong to Marc."} 
 }
